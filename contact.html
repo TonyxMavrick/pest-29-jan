@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Urban Pest Experts</title>
+  <meta name="description" content="Get in touch with Urban Pest Experts. Call us for emergency pest control services or request a free quote.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <div class="header-container">
+        <a href="index.html" class="logo">
+          <div class="logo-icon">UPE</div>
+          <div class="logo-text">
+            <span class="logo-text-main">Urban Pest</span>
+            <span class="logo-text-sub">Experts</span>
+          </div>
+        </a>
+        <nav class="nav">
+          <a href="index.html">Home</a>
+          <a href="about.html">About Us</a>
+          <a href="services.html">Services</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <div class="header-cta">
+          <a href="tel:+12739383929" class="phone-link">📞 +1-273-938-3929</a>
+          <a href="contact.html" class="btn btn-primary">Get Free Quote</a>
+        </div>
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        </button>
+      </div>
+      <div class="mobile-menu" id="mobileMenu">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+        <a href="tel:+12739383929" class="phone-link">📞 +1-273-938-3929</a>
+        <a href="contact.html" class="btn btn-primary">Get Free Quote</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <div class="text-center">
+        <h1>Contact Us</h1>
+        <p style="max-width: 48rem; margin: 0 auto;">Get in touch for a free inspection and quote. We're here to help with all your pest control needs.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section section-gray">
+    <div class="container">
+      <div class="two-column">
+        <!-- Contact Form -->
+        <div>
+          <div style="background: white; padding: 2rem; border-radius: 0.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
+            <h2 style="font-size: 1.875rem; font-weight: bold; margin-bottom: 1.5rem; color: #111827;">Request a Free Quote</h2>
+            <form id="contactForm">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="name" class="form-label">Full Name *</label>
+                  <input type="text" id="name" class="form-input" required placeholder="John Doe">
+                </div>
+                <div class="form-group">
+                  <label for="email" class="form-label">Email Address *</label>
+                  <input type="email" id="email" class="form-input" required placeholder="john@example.com">
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="phone" class="form-label">Phone Number *</label>
+                  <input type="tel" id="phone" class="form-input" required placeholder="+1-234-567-8900">
+                </div>
+                <div class="form-group">
+                  <label for="service" class="form-label">Service Needed *</label>
+                  <select id="service" class="form-select" required>
+                    <option value="">Select a service</option>
+                    <option value="residential">Residential Pest Control</option>
+                    <option value="commercial">Commercial Pest Control</option>
+                    <option value="bedbugs">Bed Bug Treatment</option>
+                    <option value="termites">Termite Inspection</option>
+                    <option value="rodents">Rodent Control</option>
+                    <option value="mosquitoes">Mosquito Control</option>
+                    <option value="other">Other</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="message" class="form-label">Message</label>
+                <textarea id="message" class="form-textarea" rows="5" placeholder="Tell us about your pest problem..."></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-lg" style="width: 100%;">Submit Request</button>
+            </form>
+          </div>
+        </div>
+
+        <!-- Contact Information -->
+        <div>
+          <div class="contact-info-card">
+            <div class="contact-info-content">
+              <div class="contact-info-icon" style="font-size: 2rem;">📞</div>
+              <div>
+                <h3 class="contact-info-title">Call Us</h3>
+                <p class="contact-info-text">
+                  <a href="tel:+12739383929">+1-273-938-3929</a><br>
+                  Monday - Sunday: 24/7
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-info-card">
+            <div class="contact-info-content">
+              <div class="contact-info-icon" style="font-size: 2rem;">✉️</div>
+              <div>
+                <h3 class="contact-info-title">Email Us</h3>
+                <p class="contact-info-text">
+                  <a href="mailto:help@urbanpest.in">help@urbanpest.in</a><br>
+                  We'll respond within 24 hours
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-info-card">
+            <div class="contact-info-content">
+              <div class="contact-info-icon" style="font-size: 2rem;">📍</div>
+              <div>
+                <h3 class="contact-info-title">Visit Us</h3>
+                <p class="contact-info-text">
+                  123 Pest Control Ave<br>
+                  New York, NY 10001<br>
+                  United States
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-info-card">
+            <div class="contact-info-content">
+              <div class="contact-info-icon" style="font-size: 2rem;">⏰</div>
+              <div>
+                <h3 class="contact-info-title">Business Hours</h3>
+                <p class="contact-info-text">
+                  Monday - Friday: 8:00 AM - 6:00 PM<br>
+                  Saturday: 9:00 AM - 5:00 PM<br>
+                  Sunday: 10:00 AM - 4:00 PM<br>
+                  <strong>Emergency Service: 24/7</strong>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="emergency-card">
+            <h3>🚨 Emergency Service</h3>
+            <p>Have an urgent pest problem? We offer 24/7 emergency services for critical situations.</p>
+            <a href="tel:+12739383929" class="btn btn-secondary btn-lg" style="width: 100%;">Call Now: +1-273-938-3929</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Service Areas Section -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Service Areas</h2>
+        <p class="section-subtitle">We proudly serve communities across the United States</p>
+      </div>
+      <div class="service-areas-grid">
+        <div class="service-area-item">New York</div>
+        <div class="service-area-item">Los Angeles</div>
+        <div class="service-area-item">Chicago</div>
+        <div class="service-area-item">Houston</div>
+        <div class="service-area-item">Phoenix</div>
+        <div class="service-area-item">Philadelphia</div>
+        <div class="service-area-item">San Antonio</div>
+        <div class="service-area-item">San Diego</div>
+        <div class="service-area-item">Dallas</div>
+        <div class="service-area-item">San Jose</div>
+        <div class="service-area-item">Austin</div>
+        <div class="service-area-item">Jacksonville</div>
+      </div>
+      <p style="text-align: center; margin-top: 2rem; color: #6b7280;">
+        Don't see your city? <a href="tel:+12739383929" style="color: #2563eb; text-decoration: none; font-weight: 600;">Call us</a> to check if we service your area!
+      </p>
+    </div>
+  </section>
+
+  <!-- Map Section -->
+  <section class="section section-gray">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Find Us</h2>
+      </div>
+      <div class="map-placeholder">
+        <div>
+          <p style="font-size: 1.25rem; margin-bottom: 0.5rem;">📍 123 Pest Control Ave, New York, NY 10001</p>
+          <p style="font-size: 0.875rem;">Map integration available with Google Maps API</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta-section">
+    <div class="container">
+      <h2>Ready to Get Pest-Free?</h2>
+      <p>Contact us today and let our experts handle your pest problem</p>
+      <div class="cta-buttons">
+        <a href="tel:+12739383929" class="btn btn-primary btn-lg">Call +1-273-938-3929</a>
+        <a href="mailto:help@urbanpest.in" class="btn btn-secondary btn-lg">Email Us</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-logo">
+            <div class="footer-logo-icon">UPE</div>
+            <div class="footer-logo-text">
+              <span class="footer-logo-text-main">Urban Pest</span>
+              <span class="footer-logo-text-sub">Experts</span>
+            </div>
+          </div>
+          <p class="footer-description">Professional pest control services protecting homes and businesses across the USA since 2010.</p>
+          <div class="social-links">
+            <a href="https://facebook.com" class="social-link" aria-label="Facebook">📘</a>
+            <a href="https://twitter.com" class="social-link" aria-label="Twitter">🐦</a>
+            <a href="https://instagram.com" class="social-link" aria-label="Instagram">📷</a>
+          </div>
+        </div>
+        <div>
+          <h3 class="footer-title">Quick Links</h3>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="footer-title">Our Services</h3>
+          <ul class="footer-links">
+            <li>Residential Pest Control</li>
+            <li>Commercial Pest Control</li>
+            <li>Termite Inspection</li>
+            <li>Rodent Control</li>
+            <li>Bed Bug Treatment</li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="footer-title">Contact Us</h3>
+          <div class="footer-contact">
+            <div class="footer-contact-item">
+              <span>📍</span>
+              <span>123 Pest Control Ave, New York, NY 10001</span>
+            </div>
+            <div class="footer-contact-item">
+              <span>📞</span>
+              <a href="tel:+12739383929">+1-273-938-3929</a>
+            </div>
+            <div class="footer-contact-item">
+              <span>✉️</span>
+              <a href="mailto:help@urbanpest.in">help@urbanpest.in</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-bottom-text">© 2026 Urban Pest Experts. All rights reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="terms.html">Terms & Conditions</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
